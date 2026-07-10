@@ -1,22 +1,38 @@
 # Firmware
 
-This directory contains the firmware developed for the STM32-Based Adaptive Cruise Control and Collision Avoidance System.
+## Overview
 
-## Firmware Features
+This directory contains the reference firmware implementation for the STM32-Based Adaptive Cruise Control and Collision Avoidance System.
 
-- Ultrasonic distance measurement
-- PWM-based motor speed control
-- Collision avoidance logic
-- Adaptive Cruise Control (ACC)
-- GPIO configuration
-- Timer configuration
-- STM32 HAL drivers
+The firmware is organized into modular components responsible for sensor interfacing, motor control, Adaptive Cruise Control (ACC) logic, GPIO configuration, timer configuration, and PWM generation.
+
+## Firmware Modules
+
+| Module | Description |
+|---------|-------------|
+| main | System initialization and main execution loop |
+| ultrasonic | Distance measurement using HC-SR04 |
+| motor | DC motor control using L298N |
+| pwm | PWM generation for speed control |
+| acc | Adaptive Cruise Control decision logic |
+| gpio | GPIO initialization |
+| timer | Timer configuration |
+| system_config | Global configuration parameters |
+
+## Development Environment
+
+- STM32CubeIDE
+- STM32CubeMX
+- STM32 HAL Library
+- Embedded C
 
 ## Directory Structure
 
-- Core/Inc/ – Header files
-- Core/Src/ – Source files
-- Drivers/ – STM32 HAL drivers
-- STM32CubeMX/ – STM32CubeMX project configuration
+```text
+Core/
+├── Inc/
+└── Src/
 
-The firmware is developed using STM32CubeIDE and the STM32 HAL library.
+Drivers/
+STM32CubeMX/
+```
