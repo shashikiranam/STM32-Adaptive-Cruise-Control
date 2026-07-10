@@ -1,8 +1,0 @@
-STM32CubeIDE
-STM32CubeMX
-STM32 HAL Drivers
-Embedded C
-GNU Arm Embedded Toolchain
-PuTTY
-Tera Term
-Git
