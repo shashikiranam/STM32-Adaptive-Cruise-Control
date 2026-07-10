@@ -1,0 +1,28 @@
+# Build
+build/
+Debug/
+Release/
+
+# STM32
+*.elf
+*.bin
+*.hex
+*.map
+
+# IDE
+.vscode/
+.idea/
+
+# STM32CubeIDE
+.settings/
+.project
+.cproject
+
+# Temporary
+*.log
+*.tmp
+*.bak
+
+# OS
+.DS_Store
+Thumbs.db
