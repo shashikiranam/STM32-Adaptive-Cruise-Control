@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: STM32-Based Adaptive Cruise Control and Collision Avoidance System
+message: "If you use this repository, please cite it."
+authors:
+  - family-names: Kiran
+    given-names: Shashi A M
+repository-code: https://github.com/shashikiranam/STM32-Adaptive-Cruise-Control
+license: MIT
